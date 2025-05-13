@@ -5,7 +5,7 @@ CFLAGS = -Wall -Wextra -O2
 # Source files and output
 SRC = $(wildcard src/*.c)
 OBJ = $(SRC:.c=.o)
-TARGET = plume.so
+TARGET = libplume.so
 
 # Rules
 all: $(TARGET)
